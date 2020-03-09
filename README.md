@@ -1,8 +1,15 @@
 ![Quora Insincere Questions Classification](https://github.com/shejz/Quora-Insincere-Questions-Classification/blob/master/images/QIQC.jpg)
 
-### **Metric**
-The metric was the **F1-Score**, as the problem was an unbalanced binary classification. 
+This competition is sponsored by Quora. The objective is to predict whether a question asked on Quora is sincere or not. This is a kernels only comeptition with contraint of two-hour runtime.
 
+An insincere question is defined as a question intended to make a statement rather than look for helpful answers. Some characteristics that can signify that a question is insincere:
+
+- has a non-neutral tone
+- is disparaging or inflammatory
+- isn't grounded in reality
+- uses sexual content
+
+Submissions are evaluated on `F1 score` between the predicted and the observed targets. As the problem was an unbalanced binary classification. 
 
 ### Text Preprocessing
 - Cleaning special characters, numbers and misspelling.
@@ -13,7 +20,6 @@ The metric was the **F1-Score**, as the problem was an unbalanced binary classif
 - the rate of upper characters
 - the number of words
 - the number of unique words
-
 
 ### Meta Embeddings
 I used glove and paragram pretrained word embeddings. The mean of the two is used as the final embedding matrix.
@@ -27,4 +33,7 @@ I used glove and paragram pretrained word embeddings. The mean of the two is use
 - Binary LSTM with an attention layer and an additional fully connected layer. 
 - Added extra features taken from a winning kernel of the toxic comments competition. 
 - Also using CLR and a capsule Layer. Blended together in concatentation.
+
+### LeaderBoard Ranking
+
 
