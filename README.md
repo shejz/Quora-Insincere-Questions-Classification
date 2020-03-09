@@ -3,6 +3,7 @@
 ### **Metric**
 The metric was the **F1-Score**, as the problem was an unbalanced binary classification. 
 
+
 ### Text Preprocessing
 
 ### Statistical features for sentences
@@ -14,7 +15,7 @@ The metric was the **F1-Score**, as the problem was an unbalanced binary classif
 
 
 ### Embeddings
-Two embedding matrices have been used. Glove, and paragram. The mean of the two is used as the final embedding matrix.
+I used glove and paragram pretrained word embeddings. The mean of the two is used as the final embedding matrix.
 - [glove.840B.300d](https://nlp.stanford.edu/projects/glove/)
 - [paragram_300_sl999](https://cogcomp.org/page/resource_view/106)
 
