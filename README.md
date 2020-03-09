@@ -35,5 +35,7 @@ I used glove and paragram pretrained word embeddings. The mean of the two is use
 - Also using CLR and a capsule Layer. Blended together in concatentation.
 
 ### LeaderBoard Ranking
-
+|Model             |Public score|Private score|Final rank| 
+|------------------|------------|-------------|----------|
+| NN using Pytorch |0.98122     |0.98206      | 586/4037 [Top 15%](https://www.kaggle.com/shielaj/competitions)|
 
