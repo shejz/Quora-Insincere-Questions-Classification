@@ -5,6 +5,7 @@ The metric was the **F1-Score**, as the problem was an unbalanced binary classif
 
 
 ### Text Preprocessing
+- Cleaning special characters, numbers and misspelling.
 
 ### Statistical features for sentences
 - the number of characters
@@ -14,7 +15,7 @@ The metric was the **F1-Score**, as the problem was an unbalanced binary classif
 - the number of unique words
 
 
-### Embeddings
+### Meta Embeddings
 I used glove and paragram pretrained word embeddings. The mean of the two is used as the final embedding matrix.
 - [glove.840B.300d](https://nlp.stanford.edu/projects/glove/)
 - [paragram_300_sl999](https://cogcomp.org/page/resource_view/106)
