@@ -1,6 +1,6 @@
 ![Quora Insincere Questions Classification](https://github.com/shejz/Quora-Insincere-Questions-Classification/blob/master/images/QIQC.jpg)
 
-This competition is sponsored by Quora. The objective is to predict whether a question asked on Quora is sincere or not. This is a kernels only comeptition with contraint of two-hour runtime.
+This competition is sponsored by Quora. The objective is to predict whether a question asked on Quora is sincere or not. This is a kernels only competition with contraint of two-hour runtime.
 
 An insincere question is defined as a question intended to make a statement rather than look for helpful answers. Some characteristics that can signify that a question is insincere:
 
