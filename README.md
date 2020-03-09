@@ -37,5 +37,5 @@ I used glove and paragram pretrained word embeddings. The mean of the two is use
 ### LeaderBoard Ranking
 |Model             |Public score|Private score|Final rank| 
 |------------------|------------|-------------|----------|
-| NN using Pytorch |0.98122     |0.98206      | 586/4037 [Top 15%](https://www.kaggle.com/shielaj/competitions)|
+| NN using Pytorch |0.69910    |0.70193     | 586/4037 [Top 15%](https://www.kaggle.com/shielaj/competitions)|
 
